@@ -15,7 +15,7 @@ function makeInfinityAdder() {
       return sum;
     }
 
-    totalSum += num;
+    totalSum += +num;
 
     return adder;
   };
